@@ -1,0 +1,6 @@
+# maven specific
+target/
+
+# IDEA specific
+*.iml
+.idea/
