@@ -8,7 +8,6 @@ http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/persistence/persistence_2
         <jta-data-source>jdbc/aow</jta-data-source>
         <properties>
             <property name="javax.persistence.schema-generation.database.action" value="create"/>
-            <!--<property name="javax.persistence.schema-generation.scripts.action" value="drop-and-create"/>-->
             <property name="eclipselink.deploy-on-startup" value="true"/>
         </properties>
     </persistence-unit>
