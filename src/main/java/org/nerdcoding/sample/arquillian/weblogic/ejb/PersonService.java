@@ -51,9 +51,9 @@ public class PersonService {
         return person;
     }
 
-    public List<Person> findByFirstName(final String firstName) {
-        TypedQuery<Person> query = entityManager.createQuery("select p from Person p where p.firstName = :firstName", Person.class);
-        query.setParameter("firstName", firstName);
+    public List<Person> findByLastName(final String lastName) {
+        TypedQuery<Person> query = entityManager.createQuery("select p from Person p where p.lastName = :lastName", Person.class);
+        query.setParameter("lastName", lastName);
 
         return query.getResultList();
     }
